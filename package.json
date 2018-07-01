@@ -18,10 +18,12 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "index.js",
   "devDependencies": {
-    "@storybook/react": "^3.4.8",
     "@storybook/addon-actions": "^3.4.8",
+    "@storybook/addon-knobs": "^3.4.8",
     "@storybook/addon-links": "^3.4.8",
+    "@storybook/addon-viewport": "^3.4.8",
     "@storybook/addons": "^3.4.8",
+    "@storybook/react": "^3.4.8",
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0"
   },

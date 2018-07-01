@@ -10,6 +10,7 @@
   font-family: inherit;
   padding: 0.5em 1em;
   transition: all 0.05s;
+  width: 100%;
 }
 
 .Button:hover,
@@ -40,4 +41,18 @@
 .Button__danger:hover,
 .Button__danger:focus {
   background-color: rgb(222, 55, 14);
+}
+
+.Button__small {
+  font-size: 0.75em;
+}
+
+.Button__large {
+  font-size: 1.5em;
+}
+
+@media screen and (min-width: 500px) {
+  .Button {
+    width: auto;
+  }
 }
