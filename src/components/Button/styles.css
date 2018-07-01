@@ -1,0 +1,43 @@
+.Button {
+  appearance: none;
+  background-color: rgb(245, 246, 250);
+  border: none;
+  box-shadow: 0 var(--button-shadow-distance, 0.25em)
+    var(--button-shadow-color, rgb(220, 221, 225));
+  cursor: pointer;
+  outline: none;
+  font-size: 1em;
+  font-family: inherit;
+  padding: 0.5em 1em;
+  transition: all 0.05s;
+}
+
+.Button:hover,
+.Button:focus {
+  background-color: rgb(235, 236, 240);
+}
+
+.Button:active {
+  --button-shadow-distance: 0.15em;
+  transform: translateY(0.1em);
+}
+
+.Button__primary {
+  background-color: rgb(10, 168, 255);
+  --button-shadow-color: rgb(0, 151, 230);
+}
+
+.Button__primary:hover,
+.Button__primary:focus {
+  background-color: rgb(0, 158, 245);
+}
+
+.Button__danger {
+  background-color: rgb(232, 65, 24);
+  --button-shadow-color: rgb(194, 54, 22);
+}
+
+.Button__danger:hover,
+.Button__danger:focus {
+  background-color: rgb(222, 55, 14);
+}
