@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import "./styles.css";
 
-const Button = ({ type, children }) => {
+const Button = ({ children, onClick, type }) => {
   const classes = ["Button"];
 
   if (type === "primary") {
@@ -10,7 +10,11 @@ const Button = ({ type, children }) => {
     classes.push("Button__danger");
   }
 
-  return <button className={classes.join(" ")}>{children}</button>;
+  return (
+    <button className={classes.join(" ")} onClick={onClick}>
+      {children}
+    </button>
+  );
 };
 
 export default Button;
