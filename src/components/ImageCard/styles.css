@@ -8,12 +8,8 @@
   text-align: right;
 }
 
-.ImageCard__content,
-.ImageCard__image {
-  flex: 1;
-}
-
 .ImageCard__content {
+  flex: 2;
   padding: 1em;
 }
 
@@ -30,6 +26,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: none;
+  flex: 1;
 }
 
 .ImageCard__vertical {
