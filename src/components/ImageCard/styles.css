@@ -1,0 +1,44 @@
+.ImageCard {
+  display: flex;
+  padding: 0;
+  text-align: left;
+}
+
+.ImageCard__alternate {
+  text-align: right;
+}
+
+.ImageCard__content,
+.ImageCard__image {
+  flex: 1;
+}
+
+.ImageCard__content {
+  padding: 1em;
+}
+
+.Card__tight .ImageCard__content {
+  padding: 0.5em;
+}
+
+.Card__loose .ImageCard__content {
+  padding: 1.5em;
+}
+
+.ImageCard__image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+}
+
+.ImageCard__vertical {
+  flex-direction: column;
+  height: 100%;
+}
+
+@media screen and (min-width: 500px) {
+  .ImageCard__image {
+    display: block;
+  }
+}
