@@ -1,0 +1,14 @@
+.Card {
+  background-color: rgb(255, 255, 255);
+  padding: 1em;
+}
+
+.Card__tight {
+  line-height: 1;
+  padding: 0.5em;
+}
+
+.Card__loose {
+  line-height: 1.75;
+  padding: 1.5em;
+}
