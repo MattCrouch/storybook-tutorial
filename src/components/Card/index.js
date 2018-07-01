@@ -1,8 +1,8 @@
 import React from "react";
 import "./styles.css";
 
-const Card = ({ children, type }) => {
-  const classes = ["Card"];
+const Card = ({ children, className, type }) => {
+  const classes = ["Card", className];
 
   if (type === "tight") {
     classes.push("Card__tight");
