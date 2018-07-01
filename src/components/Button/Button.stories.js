@@ -4,6 +4,8 @@ import { storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
 import { selectV2, text, withKnobs } from "@storybook/addon-knobs/react";
 
+import backgrounds from "../../storybook/backgrounds";
+
 import Button from ".";
 
 const sizes = {
@@ -19,6 +21,7 @@ const types = {
 };
 
 storiesOf("Button", module)
+  .addDecorator(backgrounds)
   .addDecorator(withKnobs)
   .add("Basic Usage", () => {
     const buttonText = text("Label", "This is Net Magazine");
