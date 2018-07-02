@@ -1,7 +1,9 @@
 import React from "react";
 import "./styles.css";
 
-const Card = ({ children, className, type }) => {
+const Card = props => {
+  const { children, className, type } = props;
+
   const classes = ["Card", className];
 
   if (type === "tight") {
@@ -10,7 +12,11 @@ const Card = ({ children, className, type }) => {
     classes.push("Card__loose");
   }
 
-  return <div className={classes.join(" ")}>{children}</div>;
+  return (
+    <div {...props} className={classes.join(" ")}>
+      {children}
+    </div>
+  );
 };
 
 export default Card;
