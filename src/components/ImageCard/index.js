@@ -9,11 +9,11 @@ const ImageCard = props => {
   const classes = ["ImageCard"];
 
   if (alternate) {
-    classes.push("ImageCard__alternate");
+    classes.push("ImageCard--alternate");
   }
 
   if (vertical) {
-    classes.push("ImageCard__vertical");
+    classes.push("ImageCard--vertical");
   }
 
   const content = [

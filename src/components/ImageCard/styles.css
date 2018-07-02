@@ -4,7 +4,7 @@
   text-align: left;
 }
 
-.ImageCard__alternate {
+.ImageCard--alternate {
   text-align: right;
 }
 
@@ -13,11 +13,11 @@
   padding: 1em;
 }
 
-.Card__tight .ImageCard__content {
+.Card--tight .ImageCard__content {
   padding: 0.5em;
 }
 
-.Card__loose .ImageCard__content {
+.Card--loose .ImageCard__content {
   padding: 1.5em;
 }
 
@@ -29,7 +29,7 @@
   flex: 1;
 }
 
-.ImageCard__vertical {
+.ImageCard--vertical {
   flex-direction: column;
   height: 100%;
 }

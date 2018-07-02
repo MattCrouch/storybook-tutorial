@@ -7,13 +7,13 @@ const Card = props => {
   const classes = ["Card", className];
 
   if (type === "tight") {
-    classes.push("Card__tight");
+    classes.push("Card--tight");
   } else if (type === "loose") {
-    classes.push("Card__loose");
+    classes.push("Card--loose");
   }
 
   return (
-    <div {...props} className={classes.join(" ")}>
+    <div className={classes.join(" ")} style={props.style}>
       {children}
     </div>
   );

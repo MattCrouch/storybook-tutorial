@@ -4,12 +4,12 @@
   padding: 1em;
 }
 
-.Card__tight {
+.Card--tight {
   line-height: 1;
   padding: 0.5em;
 }
 
-.Card__loose {
+.Card--loose {
   line-height: 1.75;
   padding: 1.5em;
 }

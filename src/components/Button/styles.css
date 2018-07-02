@@ -23,31 +23,31 @@
   transform: translateY(0.1em);
 }
 
-.Button__primary {
+.Button--primary {
   background-color: rgb(10, 168, 255);
   --button-shadow-color: rgb(0, 151, 230);
 }
 
-.Button__primary:hover,
-.Button__primary:focus {
+.Button--primary:hover,
+.Button--primary:focus {
   background-color: rgb(0, 158, 245);
 }
 
-.Button__danger {
+.Button--danger {
   background-color: rgb(232, 65, 24);
   --button-shadow-color: rgb(194, 54, 22);
 }
 
-.Button__danger:hover,
-.Button__danger:focus {
+.Button--danger:hover,
+.Button--danger:focus {
   background-color: rgb(222, 55, 14);
 }
 
-.Button__small {
+.Button--small {
   font-size: 0.75em;
 }
 
-.Button__large {
+.Button--large {
   font-size: 1.5em;
 }
 
