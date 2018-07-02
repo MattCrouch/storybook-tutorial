@@ -7,6 +7,8 @@ import { selectV2, text, withKnobs } from "@storybook/addon-knobs/react";
 import backgrounds from "../../storybook/backgrounds";
 
 import Button from ".";
+import Grid from "../Grid";
+import Row from "../Row";
 
 const sizes = {
   Default: "",
@@ -23,14 +25,17 @@ const types = {
 storiesOf("Button", module)
   .addDecorator(backgrounds)
   .addDecorator(withKnobs)
+  .addDecorator(story => <Grid>{story()}</Grid>)
   .add("Basic Usage", () => {
     const buttonText = text("Label", "This is Net Magazine");
     const size = selectV2("Size", sizes, Object.values(sizes)[0]);
     const type = selectV2("Type", types, Object.values(types)[0]);
 
     return (
-      <Button onClick={action("button clicked")} size={size} type={type}>
-        {buttonText}
-      </Button>
+      <Row>
+        <Button onClick={action("button clicked")} size={size} type={type}>
+          {buttonText}
+        </Button>
+      </Row>
     );
   });
