@@ -1,6 +1,7 @@
 import React from "react";
 
 import { storiesOf } from "@storybook/react";
+import { action } from "@storybook/addon-actions";
 import {
   number,
   selectV2,
@@ -51,7 +52,7 @@ storiesOf("Card", module)
       <Row>
         <Card type={type}>
           <p>{content}</p>
-          <Button>Read More</Button>
+          <Button onClick={action("button clicked")}>Read More</Button>
         </Card>
       </Row>
     );
@@ -73,7 +74,7 @@ storiesOf("Card", module)
             finibus sem libero, sit amet scelerisque justo tempor ac. Maecenas
             pulvinar in ante eu porta. Maecenas ac malesuada arcu...
           </p>
-          <Button>Read More</Button>
+          <Button onClick={action("button clicked")}>Read More</Button>
         </Card>
       );
     }

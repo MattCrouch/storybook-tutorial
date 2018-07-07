@@ -1,6 +1,7 @@
 import React from "react";
 
 import { storiesOf } from "@storybook/react";
+import { action } from "@storybook/addon-actions";
 import { boolean, text, withKnobs } from "@storybook/addon-knobs/react";
 
 import backgrounds from "../../storybook/backgrounds";
@@ -36,7 +37,7 @@ storiesOf("Title Card", module)
       <TitleCard invert={invert} imageUrl={imageUrl}>
         <h1>{title}</h1>
         <p>{description}</p>
-        <Button>{buttonText}</Button>
+        <Button onClick={action("button clicked")}>{buttonText}</Button>
       </TitleCard>
     );
   });
