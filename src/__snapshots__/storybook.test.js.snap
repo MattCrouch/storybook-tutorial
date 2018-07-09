@@ -1,0 +1,203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Basic Usage 1`] = `
+<div
+  className="Grid "
+>
+  <div
+    className="Row "
+  >
+    <button
+      className="Button"
+      onClick={[Function]}
+    >
+      This is Net Magazine
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Card Grid 1`] = `
+<div
+  className="Grid "
+>
+  <div
+    className="Row "
+  >
+    <div
+      className="Card "
+      style={undefined}
+    >
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus sem libero, sit amet scelerisque justo tempor ac. Maecenas pulvinar in ante eu porta. Maecenas ac malesuada arcu...
+      </p>
+      <button
+        className="Button"
+        onClick={[Function]}
+      >
+        Read More
+      </button>
+    </div>
+    <div
+      className="Card "
+      style={undefined}
+    >
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus sem libero, sit amet scelerisque justo tempor ac. Maecenas pulvinar in ante eu porta. Maecenas ac malesuada arcu...
+      </p>
+      <button
+        className="Button"
+        onClick={[Function]}
+      >
+        Read More
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Card Plain Text 1`] = `
+<div
+  className="Grid "
+>
+  <div
+    className="Row "
+  >
+    <div
+      className="Card "
+      style={undefined}
+    >
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus sem libero, sit amet scelerisque justo tempor ac. Maecenas pulvinar in ante eu porta. Maecenas ac malesuada arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam semper sodales massa vitae tempor. Nam tempor ullamcorper metus sed condimentum. Suspendisse vel viverra velit. Vivamus magna dui, maximus tristique lacus in, finibus ullamcorper odio.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Card With Button 1`] = `
+<div
+  className="Grid "
+>
+  <div
+    className="Row "
+  >
+    <div
+      className="Card "
+      style={undefined}
+    >
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus sem libero, sit amet scelerisque justo tempor ac. Maecenas pulvinar in ante eu porta. Maecenas ac malesuada arcu...
+      </p>
+      <button
+        className="Button"
+        onClick={[Function]}
+      >
+        Read More
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Image Card Horizontal 1`] = `
+<div
+  className="Card ImageCard"
+  style={undefined}
+>
+  <div
+    className="ImageCard__image"
+    style={
+      Object {
+        "backgroundImage": "url(/image.jpg",
+      }
+    }
+  />
+  <div
+    className="ImageCard__content"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus sem libero, sit amet scelerisque justo tempor ac. Maecenas pulvinar in ante eu porta. Maecenas ac malesuada arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam semper sodales massa vitae tempor. Nam tempor ullamcorper metus sed condimentum. Suspendisse vel viverra velit. Vivamus magna dui, maximus tristique lacus in, finibus ullamcorper odio. Fusce convallis fermentum tortor vel consequat. Aenean nec lacus ac erat ultrices condimentum. Praesent imperdiet lectus ut porta luctus. Proin at tempus turpis. Quisque rutrum eget libero in fringilla. Proin ullamcorper et est aliquet pretium. Proin hendrerit viverra risus, fringilla tristique mauris tempor lobortis. Nam faucibus euismod mattis.
+  </div>
+</div>
+`;
+
+exports[`Storyshots Image Card Horizontal Right Align 1`] = `
+<div
+  className="Card ImageCard ImageCard--alternate"
+  style={undefined}
+>
+  <div
+    className="ImageCard__content"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus sem libero, sit amet scelerisque justo tempor ac. Maecenas pulvinar in ante eu porta. Maecenas ac malesuada arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam semper sodales massa vitae tempor. Nam tempor ullamcorper metus sed condimentum. Suspendisse vel viverra velit. Vivamus magna dui, maximus tristique lacus in, finibus ullamcorper odio. Fusce convallis fermentum tortor vel consequat. Aenean nec lacus ac erat ultrices condimentum. Praesent imperdiet lectus ut porta luctus. Proin at tempus turpis. Quisque rutrum eget libero in fringilla. Proin ullamcorper et est aliquet pretium. Proin hendrerit viverra risus, fringilla tristique mauris tempor lobortis. Nam faucibus euismod mattis.
+  </div>
+  <div
+    className="ImageCard__image"
+    style={
+      Object {
+        "backgroundImage": "url(/image.jpg",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots Image Card Vertical 1`] = `
+<div
+  className="Card ImageCard ImageCard--vertical"
+  style={undefined}
+>
+  <div
+    className="ImageCard__image"
+    style={
+      Object {
+        "backgroundImage": "url(/image.jpg",
+      }
+    }
+  />
+  <div
+    className="ImageCard__content"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus sem libero, sit amet scelerisque justo tempor ac. Maecenas pulvinar in ante eu porta. Maecenas ac malesuada arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam semper sodales massa vitae tempor. Nam tempor ullamcorper metus sed condimentum. Suspendisse vel viverra velit. Vivamus magna dui, maximus tristique lacus in, finibus ullamcorper odio. Fusce convallis fermentum tortor vel consequat. Aenean nec lacus ac erat ultrices condimentum. Praesent imperdiet lectus ut porta luctus. Proin at tempus turpis. Quisque rutrum eget libero in fringilla. Proin ullamcorper et est aliquet pretium. Proin hendrerit viverra risus, fringilla tristique mauris tempor lobortis. Nam faucibus euismod mattis.
+  </div>
+</div>
+`;
+
+exports[`Storyshots Title Card Action 1`] = `
+<div
+  className="Card TitleCard TitleCard--invert"
+  style={
+    Object {
+      "backgroundImage": "url(/image.jpg",
+    }
+  }
+>
+  <h1>
+    Lorem ipsum
+  </h1>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus sem libero, sit amet scelerisque justo tempor ac. Maecenas pulvinar in ante eu porta. Maecenas ac malesuada arcu...
+  </p>
+  <button
+    className="Button"
+    onClick={[Function]}
+  >
+    Read More
+  </button>
+</div>
+`;
+
+exports[`Storyshots Title Card Title 1`] = `
+<div
+  className="Card TitleCard TitleCard--invert"
+  style={
+    Object {
+      "backgroundImage": "url(/image.jpg",
+    }
+  }
+>
+  <h1>
+    Lorem ipsum
+  </h1>
+</div>
+`;
