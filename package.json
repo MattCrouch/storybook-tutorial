@@ -1,6 +1,6 @@
 {
-  "name": "storybook-test",
-  "version": "0.1.0",
+  "name": "storybook-tutorial",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "react": "^16.4.1",
@@ -30,6 +30,6 @@
     "babel-runtime": "^6.26.0",
     "react-test-renderer": "^16.4.1"
   },
-  "author": "",
+  "author": "Matt Crouch <matt@mattcrouch.net> (https://www.mattcrouch.net)",
   "license": "ISC"
 }
