@@ -1,4 +1,4 @@
-# Develop reusable React components with Storybook
+# Develop reusable React components with Storybook
 
 [Demo](https://mattcrouch.github.io/storybookexample)
 
